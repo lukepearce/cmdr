@@ -35,7 +35,7 @@ class CmdRPlugin extends BasePlugin
      */
     public function getDescription()
     {
-        return Craft::t('Tired of explaning to clients and PM&#39;s that they&#39;ll need to force refresh to see your latest changes? Let cmdR take care of it for you!');
+        return Craft::t('cmdR cache busts an asset by appending a query string using the assets last modified timestamp');
     }
 
     /**
