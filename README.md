@@ -2,6 +2,8 @@
 
 Tired of explaning to clients and PM's that they'll need to force refresh to see your latest changes? Let cmdR take care of it for you!
 
+cmdR appends a query string using the last modified timestamp of your asset. The next time your asset gets modified, the query string will update and you'll have busted that cache!
+
 ## Installation
 
 To install cmdR, follow these steps:
@@ -12,10 +14,6 @@ To install cmdR, follow these steps:
 5. The plugin folder should be named `cmdr` for Craft to see it.
 
 cmdR works on Craft 2.6.2954
-
-## cmdR Overview
-
-cmdR finds the last modified date of your assets and appends a query string using the timestamp. Next time your asset gets modified, the query string will update and you'll have busted that cache!
 
 ## Using cmdR
 
