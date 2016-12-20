@@ -1,10 +1,10 @@
 [
-    {
-        "version": "1",
-        "downloadUrl": "https://github.com/ten4design/cmdr/archive/master.zip",
-        "date": "2016-12-19T16:10:52.793Z",
-        "notes": [
-            "[Added] Initial release"
-        ]
-    }
+	{
+		"version": "1",
+		"downloadUrl": "https://github.com/ten4design/cmdr/archive/master.zip",
+		"date": "2016-12-19T16:10:52.793Z",
+		"notes": [
+			"[Added] Initial release"
+		]
+	}
 ]

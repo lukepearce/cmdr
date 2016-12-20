@@ -23,7 +23,7 @@ class CmdRTwigExtension extends \Twig_Extension
 	 */
 	public function getName()
 	{
-			return 'CacheBuster';
+		return 'cmdR';
 	}
 
 	/**
