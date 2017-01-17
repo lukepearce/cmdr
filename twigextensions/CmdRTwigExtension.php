@@ -46,6 +46,9 @@ class CmdRTwigExtension extends \Twig_Extension
 		$siteUrl = craft()->getSiteUrl();
 		$fileUrl = $siteUrl . $file;
 
+		if !IOHelper::fileExists($filePath) {
+			return $filePath;
+		}
 		$lastModified = filemtime($filePath);
 		$bustString = substr(md5($lastModified), 0, 5);
 
