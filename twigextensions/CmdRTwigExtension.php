@@ -49,7 +49,7 @@ class CmdRTwigExtension extends \Twig_Extension
 
 		// If the file we're trying to bust doesn't exist then we should return the normal filepath
 		if (!IOHelper::fileExists($filePath)) {
-			return $filePath;
+			return $fileUrl;
 		}
 
 		// Get the last modified time of the file
