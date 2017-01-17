@@ -48,7 +48,7 @@ class CmdRTwigExtension extends \Twig_Extension
 		$fileUrl = $siteUrl . $file;
 
 		// If the file we're trying to bust doesn't exist then we should return the normal filepath
-		if !IOHelper::fileExists($filePath) {
+		if (!IOHelper::fileExists($filePath)) {
 			return $filePath;
 		}
 
